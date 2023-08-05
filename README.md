@@ -26,8 +26,12 @@ Each notebook has two versions (all python scripts are unaffected by this):
 - [Simple Tricks To Speed up the Sum Calculation in Pandas](https://github.com/kyaiooiayk/Pandas-Notes/blob/main/tutorials/GitHub_MD_rendering/Simple%20Tricks%20To%20Speed%20up%20the%20Sum%20Calculation%20in%20Pandas.ipynb)
 ***
 
-### When you need performance think about `polars`
+## When you need performance think about `polars`
 - [polars](https://github.com/pola-rs/polars)
 - Using Pandas is good for prototyping, but it can be very slow when used in a training pipeline. Typical training pipelines use a lot of indexing and row-wise operations, and Pandas is not optimized for this. E.g. compare the performance of df.iloc[i] and array[i] to estimate the difference at scale of many millions of calls. When columns-wise operations are needed, we prefer to use polars — an optimized library with an API similar to Pandas, written in Rust.
 - Although it is written in Rust, Polars has a Python package, which makes it a potential alternative to Pandas. Polars has two different APIs: an eager API and a lazy API. The eager execution is similar to Pandas. That means the code is run directly, and its results are returned immediately.
+***
+
+## GPU-power pandas
+- [Mastering GPUs: A Beginner’s Guide to GPU-Accelerated DataFrames in Python](https://www.kdnuggets.com/2023/07/mastering-gpus-beginners-guide-gpu-accelerated-dataframes-python.html)
 ***
