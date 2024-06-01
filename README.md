@@ -35,3 +35,7 @@ Each notebook has two versions (all python scripts are unaffected by this):
 ## GPU-power pandas
 - [Mastering GPUs: A Beginner’s Guide to GPU-Accelerated DataFrames in Python](https://www.kdnuggets.com/2023/07/mastering-gpus-beginners-guide-gpu-accelerated-dataframes-python.html)
 ***
+
+## Others
+- [How fast can we process csv file in pandas](https://datapythonista.me/blog/how-fast-can-we-process-a-csv-file?utm_source=substack&utm_medium=email)
+***
